@@ -49,8 +49,13 @@ namespace WagenPark.Models
     public class LoginViewModel
     {
         [Required]
+        [DataType(DataType.EmailAddress)]
+        [Display(Name = "Email Adress")]
+        public string Email { get; set; }
+
+        [Required]
         [Display(Name = "Username")]
-        public string Username { get; set; }
+        public string UserName { get; set; }
 
         [Required]
         [DataType(DataType.Password)]
@@ -67,6 +72,11 @@ namespace WagenPark.Models
         [Required]
         [Display(Name = "Username")]
         public string UserName { get; set; }
+
+        [Required]
+        [DataType(DataType.EmailAddress)]
+        [Display(Name = "Email Adress")]
+        public string Email { get; set; }
 
         [Required]
         [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
@@ -107,5 +117,6 @@ namespace WagenPark.Models
         [EmailAddress]
         [Display(Name = "Email")]
         public string Email { get; set; }
+        public string UserName { get; internal set; }
     }
 }
