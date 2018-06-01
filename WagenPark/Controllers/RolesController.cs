@@ -9,7 +9,7 @@ using WagenPark.Models;
 
 namespace WagenPark.Controllers
 {
-
+    [Authorize(Roles = "Admin")]
     public class RolesController : Controller
     {
 

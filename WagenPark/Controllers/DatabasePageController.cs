@@ -6,11 +6,10 @@ using System.Web.Mvc;
 
 namespace WagenPark.Controllers
 {
-    [Authorize(Roles = "Dealer , Admin")]
-    public class DealerPageController : Controller
+    public class DatabasePageController : Controller
     {
-        // GET: DealerPage
-        public ActionResult DealerPage()
+        // GET: DatabasePage
+        public ActionResult Database()
         {
             return View();
         }

@@ -197,6 +197,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\DatabasePageController.cs" />
     <Compile Include="Controllers\DealerPageController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -274,10 +275,12 @@
     <Content Include="Views\Roles\Index.cshtml" />
     <Content Include="Views\Shared\_LayoutDealer.cshtml" />
     <Content Include="Views\DealerPage\DealerPage.cshtml" />
-    <Content Include="Views\Shared\_LayoutDatabase.cshtml" />
+    <Content Include="Views\MutualLayouts\DatabaseLayout.cshtml" />
+    <Content Include="Views\DatabasePage\Database.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Mutual\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
