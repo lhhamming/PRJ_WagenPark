@@ -1,0 +1,10 @@
+﻿
+@{
+    ViewBag.Title = "DealerPage";
+    Layout = "~/Views/Shared/_LayoutDealer.cshtml";
+}
+
+<h2>DealerPage</h2>
+
+<button id="Database"> Goto Database </button>
+<input type="button" value="Some text" onclick="window.location.href='<%= Url.Action(" actionName", "controllerName" ) %>';" />
