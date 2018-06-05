@@ -39,6 +39,8 @@ namespace WagenPark.App_Start
                    naam = "Bosmans"
                }
            };
+                dealer.ForEach(d => context.Dealers.Add(d));
+                context.SaveChanges();
 
                 var onderhoud = new List<Onderhoud>
                 {
@@ -50,6 +52,8 @@ namespace WagenPark.App_Start
                         werkplaats_werkplaatsnr = "2"
                     }
                 };
+                onderhoud.ForEach(o => context.Onderhoud.Add(o));
+                context.SaveChanges();
 
                 var werkplaats = new List<Werkplaats>
                 {
@@ -59,7 +63,9 @@ namespace WagenPark.App_Start
                         naam = "Quick"
                     }
                 };
-        }
+                werkplaats.ForEach(w => context.Werkplaatsen.Add(w));
+                context.SaveChanges();
+            }
 
         }
     }

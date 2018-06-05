@@ -1,0 +1,43 @@
+﻿@model WagenPark.Classes.Onderhoud
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/MutualLayouts/DatabaseLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Onderhoud</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Kosten)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Kosten)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AutoKenteken)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AutoKenteken)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.werkplaats_werkplaatsnr)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.werkplaats_werkplaatsnr)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Onderhoudsdatum }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

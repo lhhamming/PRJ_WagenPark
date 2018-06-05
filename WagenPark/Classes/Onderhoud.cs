@@ -12,7 +12,6 @@ namespace WagenPark.Classes
         [Key]
         public string Onderhoudsdatum { get; set; }
         public string Kosten { get; set; }
-        [Key]
         public string AutoKenteken { get; set; }
         public string werkplaats_werkplaatsnr { get; set; }
     }

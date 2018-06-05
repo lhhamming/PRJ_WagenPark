@@ -1,0 +1,46 @@
+﻿@model IEnumerable<WagenPark.Classes.Onderhoud>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/MutualLayouts/DatabaseLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Kosten)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AutoKenteken)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.werkplaats_werkplaatsnr)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Kosten)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AutoKenteken)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.werkplaats_werkplaatsnr)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Onderhoudsdatum }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Onderhoudsdatum }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Onderhoudsdatum })
+        </td>
+    </tr>
+}
+
+</table>

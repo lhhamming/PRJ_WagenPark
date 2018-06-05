@@ -208,7 +208,9 @@
     <Compile Include="Controllers\DealersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\OnderhoudsController.cs" />
     <Compile Include="Controllers\RolesController.cs" />
+    <Compile Include="Controllers\WerkplaatsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -297,6 +299,16 @@
     <Content Include="Views\Dealers\Details.cshtml" />
     <Content Include="Views\Dealers\Edit.cshtml" />
     <Content Include="Views\Dealers\Index.cshtml" />
+    <Content Include="Views\Onderhouds\Create.cshtml" />
+    <Content Include="Views\Onderhouds\Delete.cshtml" />
+    <Content Include="Views\Onderhouds\Details.cshtml" />
+    <Content Include="Views\Onderhouds\Edit.cshtml" />
+    <Content Include="Views\Onderhouds\Index.cshtml" />
+    <Content Include="Views\Werkplaats\Create.cshtml" />
+    <Content Include="Views\Werkplaats\Delete.cshtml" />
+    <Content Include="Views\Werkplaats\Details.cshtml" />
+    <Content Include="Views\Werkplaats\Edit.cshtml" />
+    <Content Include="Views\Werkplaats\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
