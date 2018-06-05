@@ -196,7 +196,11 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="App_Start\WagenparkInitialiser.cs" />
+    <Compile Include="Classes\Auto.cs" />
+    <Compile Include="Classes\Dealer.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AutoesController.cs" />
     <Compile Include="Controllers\DatabasePageController.cs" />
     <Compile Include="Controllers\DealerPageController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -208,6 +212,7 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\WagenParkContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -277,6 +282,11 @@
     <Content Include="Views\DealerPage\DealerPage.cshtml" />
     <Content Include="Views\MutualLayouts\DatabaseLayout.cshtml" />
     <Content Include="Views\DatabasePage\Database.cshtml" />
+    <Content Include="Views\Autoes\Create.cshtml" />
+    <Content Include="Views\Autoes\Delete.cshtml" />
+    <Content Include="Views\Autoes\Details.cshtml" />
+    <Content Include="Views\Autoes\Edit.cshtml" />
+    <Content Include="Views\Autoes\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
