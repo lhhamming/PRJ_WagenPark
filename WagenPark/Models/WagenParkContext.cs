@@ -20,8 +20,8 @@ namespace WagenPark.Models
         {
 
         }
-            public DbSet<Auto> Autos { get; set; }
-            public DbSet<Dealer> Dealer { get; set; }
+            //public DbSet<Auto> Autos { get; set; }
+            //public DbSet<Dealer> Dealer { get; set; }
             public DbSet<Onderhoud> Onderhoud { get; set; }
             public DbSet<Werkplaats> Werkplaatsen { get; set; }
 

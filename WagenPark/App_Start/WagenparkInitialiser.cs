@@ -38,9 +38,27 @@ namespace WagenPark.App_Start
                    dealerNr = "73",
                    naam = "Bosmans"
                }
-           };   
+           };
 
                 var onderhoud = new List<Onderhoud>
+                {
+                    new Onderhoud
+                    {
+                        Onderhoudsdatum = "100316",
+                        Kosten = "345",
+                        AutoKenteken = "GB420D",
+                        werkplaats_werkplaatsnr = "2"
+                    }
+                };
+
+                var werkplaats = new List<Werkplaats>
+                {
+                    new Werkplaats
+                    {
+                        werkplaatsnr = "1",
+                        naam = "Quick"
+                    }
+                };
         }
 
         }
