@@ -6,10 +6,10 @@ using System.Web;
 
 namespace WagenPark.Classes
 {
-    public class Dealer
+    public class Werkplaats
     {
         [Key]
-        public string dealerNr { get; set; }
+        public string werkplaatsnr { get; set; }
         public string naam { get; set; }
     }
 }

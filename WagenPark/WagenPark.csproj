@@ -199,10 +199,13 @@
     <Compile Include="App_Start\WagenparkInitialiser.cs" />
     <Compile Include="Classes\Auto.cs" />
     <Compile Include="Classes\Dealer.cs" />
+    <Compile Include="Classes\Onderhoud.cs" />
+    <Compile Include="Classes\Werkplaats.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AutoesController.cs" />
     <Compile Include="Controllers\DatabasePageController.cs" />
     <Compile Include="Controllers\DealerPageController.cs" />
+    <Compile Include="Controllers\DealersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\RolesController.cs" />
@@ -287,6 +290,11 @@
     <Content Include="Views\Autoes\Details.cshtml" />
     <Content Include="Views\Autoes\Edit.cshtml" />
     <Content Include="Views\Autoes\Index.cshtml" />
+    <Content Include="Views\Dealers\Create.cshtml" />
+    <Content Include="Views\Dealers\Delete.cshtml" />
+    <Content Include="Views\Dealers\Details.cshtml" />
+    <Content Include="Views\Dealers\Edit.cshtml" />
+    <Content Include="Views\Dealers\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
