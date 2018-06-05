@@ -19,7 +19,7 @@
 						@Html.LabelFor(m => m.Email, new {@class = "login"})
 						<div>
 							@Html.TextBoxFor(m => m.Email, new {@class = "form-control login"})
-							@Html.ValidationMessageFor(m => m.Email, "", new {@class = "text-danger"})
+							@Html.ValidationMessageFor(m => m.Email, "", new {@class = "text-danger login"})
 						</div>
 					</div>
 
@@ -27,14 +27,14 @@
 						@Html.LabelFor(m => m.UserName, new {@class = "login"})
 						<div>
 							@Html.TextBoxFor(m => m.UserName, new {@class = "form-control login"})
-							@Html.ValidationMessageFor(m => m.UserName, "", new {@class = "text-danger"})
+							@Html.ValidationMessageFor(m => m.UserName, "", new {@class = "text-danger login"})
 						</div>
 					</div>
 					<div>
 						@Html.LabelFor(m => m.Password, new {@class = "login"})
 						<div>
 							@Html.PasswordFor(m => m.Password, new {@class = "form-control login"})
-							@Html.ValidationMessageFor(m => m.Password, "", new {@class = "text-danger"})
+							@Html.ValidationMessageFor(m => m.Password, "", new {@class = "text-danger login"})
 						</div>
 					</div>
 					<div>
