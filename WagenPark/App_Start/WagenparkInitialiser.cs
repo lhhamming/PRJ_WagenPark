@@ -39,6 +39,8 @@ namespace WagenPark.App_Start
                    naam = "Bosmans"
                }
            };   
+
+                var onderhoud = new List<Onderhoud>
         }
 
         }
