@@ -5457,22 +5457,22 @@ a.list-group-item:focus {
 }
 
 .panel-primary {
-  border-color: #428bca;
+	border-color: #e25d6a;
 }
 
-.panel-primary > .panel-heading {
-  color: #ffffff;
-  background-color: #428bca;
-  border-color: #428bca;
-}
+	.panel-primary > .panel-heading {
+		color: #ffffff;
+		background-color: #e25d6a;
+		border-color: #e25d6a;
+	}
 
-.panel-primary > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #428bca;
-}
+		.panel-primary > .panel-heading + .panel-collapse .panel-body {
+			border-top-color: #e25d6a;
+		}
 
-.panel-primary > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #428bca;
-}
+	.panel-primary > .panel-footer + .panel-collapse .panel-body {
+		border-bottom-color: #e25d6a;
+	}
 
 .panel-success {
   border-color: #d6e9c6;
